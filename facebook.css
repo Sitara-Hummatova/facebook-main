@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ 
+
+body{
+    width:100vw;
+    height: 100vh;
+    
+    
+
+}
+ nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    width: 100vw;
+    border-bottom: 1px  #dbd8d8;
+    box-shadow: 0 0.3px 2px 1px hsl(0, 5%, 76%);
+ }
+  
+     .button{
+    display: flex;
+   
+  }
+  
+    input{
+    border-radius: 30px;
+    position: relative;
+    background-color: #F0F2F5;
+    border: 1px;
+    margin-left: 5px;
+    padding: 0 35px;
+   
+   
+    
+ }
+  .searchicon{
+    position: absolute;
+    align-self: center;
+    left: 5%;
+    z-index: 1;
+    opacity:0.5;
+    
+  }
+   ::placeholder{
+    text-align: center;
+    font-size: 16px;
+   
+   }
+   .input:focus{
+    border-color:#F0F2F5
+   }
+    .right{
+        padding-right: 10px;
+    }
+   .icons{
+    padding: 5px;
+    cursor: pointer;
+    margin-left: -200px;
+   }
+    
+   .icon2{
+   cursor: pointer;
+   }
+
+      .container{
+        display: flex;
+        padding-top: 10px;
+        position: fixed;
+      }
+     .soldiv{
+        display: flex;
+        flex-direction: column;
+        padding: 5px ;
+        overflow-y: scroll;
+        height: 600px;
+     }
+       .sekil{
+        padding: 7px;
+        width: 250px;
+       }
+      
+
+      
